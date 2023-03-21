@@ -4,10 +4,10 @@ module.exports = {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         backgroundImage: {
-            "hero-light": "url(src/assets/bg-desktop-light.jpg)",
-            "hero-dark": "url(src/assets/bg-desktop-dark.jpg)",
-            "hero-mobile-dark": "url(src/assets/bg-mobile-dark.jpg)",
-            "hero-mobile-light": "url(src/assets/bg-mobile-light.jpg)",
+            "hero-light": "url(./assets/bg-desktop-light.jpg)",
+            "hero-dark": "url(./assets/bg-desktop-dark.jpg)",
+            "hero-mobile-dark": "url(./assets/bg-mobile-dark.jpg)",
+            "hero-mobile-light": "url(./assets/bg-mobile-light.jpg)",
         },
         extend: {},
     },
