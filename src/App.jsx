@@ -10,6 +10,7 @@ function App() {
     const [filteredTodos, setFilteredTodos] = useState([]);
     const URL_TASKS =
         "https://back-todo-makaia-production.up.railway.app/tasks";
+
     const addTodo = (title) => {
         const newTodo = {
             title,

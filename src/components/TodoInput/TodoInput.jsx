@@ -16,7 +16,7 @@ const TodoInput = ({ addTodo }) => {
                 <span className="border border-gray-500 border-solid p-3 rounded-full"></span>
             </div>
             <input
-                className="focus:shadow-lg font-Inter shadow-xl pl-12 w-full py-4 bg-white dark:bg-[#25273c] rounded-xl outline-none transition-all duration-300 ease-in-out"
+                className="focus:shadow-lg font-Inter text-black dark:text-white shadow-xl pl-12 w-full py-4 bg-white dark:bg-[#25273c] rounded-xl outline-none transition-all duration-300 ease-in-out"
                 type="text"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
